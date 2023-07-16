@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Newton University</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@100;200;300;400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/download.jpg"</a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT US</a></li>
+                        <li><a href="course.html">COURSE</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+
+            <h1>OUR COURSES</h1>
+
+            
+        </section>
+
+       
+        <!-- Course -->
+
+        <section class="course">
+            <h1>Courses We Offer</h1>
+            <p>Newton University offers a wide range of courses across various disciplines to cater to the diverse interests and career aspirations of students. Some of the prominent courses offered at Newton University include:</p>
+
+            <div class="row">
+                <div class="course-col">
+                    <h3>Physics</h3>
+                    <p>A comprehensive program that covers classical mechanics, quantum mechanics, electromagnetism, thermodynamics, and astrophysics, providing students with a deep understanding of the fundamental laws governing the physical world.</p>
+                </div>
+                <div class="course-col">
+                    <h3>Mathematics</h3>
+                    <p>An extensive curriculum that explores topics such as calculus, algebra, differential equations, number theory, and mathematical modeling, enabling students to develop strong analytical and problem-solving skills.</p>
+                </div>
+                <div class="course-col">
+                    <h3>Engineering</h3>
+                    <p>Specialized engineering programs, including mechanical engineering, electrical engineering, civil engineering, and computer engineering, equipping students with the knowledge and skills required to design, build, and innovate in various technological fields.</p>
+                </div>
+               
+
+            </div>
+            <div class="row">
+                <div class="course-col">
+                    <h3>Computer Science</h3>
+                    <p>An evolving field that offers courses in programming, algorithms, data structures, artificial intelligence, machine learning, and software engineering, preparing students for careers in the rapidly growing tech industry.</p>
+                </div>
+                <div class="course-col">
+                    <h3>Business Administration</h3>
+                    <p>A comprehensive business program that covers areas such as finance, marketing, operations, human resources, and entrepreneurship, providing students with a strong foundation in business principles and leadership skills.</p>
+                </div>
+                <div class="course-col">
+                    <h3>Psychology</h3>
+                    <p>A program that delves into the study of human behavior, cognition, emotions, and mental processes, providing students with a comprehensive understanding of psychological theories and methodologies.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Facilities -->
+
+        <section class="facilities">
+            <h1>Our Facilities</h1>
+            <p>Newton University's facilities provide a conducive and modern learning environment, empowering students to explore, learn, and thrive in their academic pursuits. By ensuring that students have access to cutting-edge resources and infrastructure, the university creates an environment that fosters innovation, critical thinking, and holistic development.</p>
+
+            <div class="row">
+                <div class="facilities-col">
+                    <img src="images/library.png">
+                    <h3>World Class Library</h3>
+                    <p>Newton University's libraries are extensive and well-stocked, housing a vast collection of books, journals, research papers, and digital resources. Students have access to a wide range of academic materials, both online and offline, enabling them to conduct in-depth research and stay abreast of the latest developments in their fields.</p>
+
+                </div>
+                <div class="facilities-col">
+                    <img src="images/basketball.png">
+                    <h3>Largest Play Ground</h3>
+                    <p>The playground at Newton University offers a variety of facilities to cater to the recreational needs of students. It features open green spaces for outdoor sports such as soccer, cricket, and ultimate frisbee. There are well-maintained courts for basketball, tennis, and volleyball, allowing students to engage in team sports and friendly competitions.</p>
+
+                </div>
+                <div class="facilities-col">
+                    <img src="images/cafeteria.png">
+                    <h3>Tasty and Healthy Food</h3>
+                    <p>The cafeteria at Newton University serves as a hub for students to refuel, recharge, and connect with their peers. It not only provides nourishing meals but also creates a welcoming space that fosters a sense of community and well-being on campus.</p>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <section class="footer">
+            <h4>ABOUT US</h4>
+            <p>Newton University is a prestigious institution of higher education committed to providing a transformative learning experience to students. With a focus on academic excellence, innovation, and holistic development, Newton University prepares students to become leaders, critical thinkers, and global citizens.</p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+
+            </div>
+
+            <p>Made with <i class="fa fa-heart-o"></i> by Newton University</p>
+        </section>
+
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+            function hideMenu() {
+                navLinks.style.right = "-200px";
+            }
+        </script>
+
+    </body>
+</html>
